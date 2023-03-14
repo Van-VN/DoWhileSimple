@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<h1>Bài tập về do - while</h1>
+<button onclick="startAssignments()">Bấm để bắt đầu</button>
+</body>
+</html>
+
+<script>
+  function startAssignments() {
+    let num = 1;
+     do {
+      num = +prompt("Nhập số từ 1 - 10");
+      alert(`Bạn vừa nhập số ${num}`);
+    } while (num >= 1 && num <= 10)
+  }
+</script>
